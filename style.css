@@ -78,6 +78,7 @@ label{
     margin-top: 50px;
     background-color: #443729;
     align-items: center;
+    color: #0a1612;
 }
 
 .check-group{
@@ -125,6 +126,7 @@ button:active{background-color: #443729;}
 .result>.l-rooms{
     grid-area: lr;
 }
+
 
 .result>.l-park{
     grid-area: lpark;
