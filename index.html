@@ -41,19 +41,19 @@
                 {{#each apartments}}
                     <div class="result">
                         <img src="{{ img }}">
-                        <div class="l-addr">Address:-</div>
+                        <div class="l-addr label">Address:-</div>
                         <div class="address">{{ address }}</div>
-                        <div class="l-rooms">Rooms:-</div>
+                        <div class="l-rooms label">Rooms:-</div>
                         <div class="rooms">{{ rooms }}</div>
-                        <div class="l-price">Price:-</div>
+                        <div class="l-price label">Price:-</div>
                         <div class="price">{{ price }}$</div>
                         {{#if immediate}}
-                            <div class="l-immediat">Contact Details:-</div>
+                            <div class="l-immediat label">Contact Details:-</div>
                             <div class="immediate">{{ contactDetails.name }}
                                 {{ contactDetails.email }}</div>
                         {{/if}}
                         {{#if parking}}
-                            <div class="l-park">Parking:-</div>
+                            <div class="l-park label">Parking:-</div>
                             <i class="fas fa-parking parking"></i>
                         {{/if}}
                         
